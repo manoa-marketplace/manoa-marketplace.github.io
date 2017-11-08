@@ -1,5 +1,5 @@
 # manoa-marketplace.github.io
 
-# Table of contents
+## Table of contents
 
 Introduction
