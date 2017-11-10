@@ -8,14 +8,14 @@ This application will provide UH Manoa students a campus-based Craiglist for buy
 
 ## Overview
 
-Due to the constant supply of surplus textbooks at the end each semester, it is thus proposed a student textbook trading board. Students can post their uneeded textbooks and desired price on the exchange. Interested students can contact the seller via UH email.
+Due to the constant supply of surplus goods at the end each semester, it is thus proposed a student goods trading board. Students can post their unneeded goods and desired price on the exchange. Interested students can contact the seller via UH email.
 * Students must login to the trading board using their UH login.
 * No usernames/aliases
 * All transactions must take place on campus for security reasons.
 * Items must fit into predetermined “dorm-related/approved” categories.
 * Students can be banned for violations of the terms of use
+* Photo of goods is required
 * Communication is via UH email
-
 
 ## Mockup Page Ideas
 * Home Page
@@ -31,7 +31,7 @@ Due to the constant supply of surplus textbooks at the end each semester, it is 
 * User takes down their posting
 * User searches for item, results are displayed
 * User communicates transaction request
-* Admin logs in an edits page
+* Admin logs in and edits page
 
 ## Beyond The Basics
 * Rating system for buyers and sellers
