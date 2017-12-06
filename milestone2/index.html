@@ -17,18 +17,20 @@
   <a class="item" href="../">
     Manoa Marketplace
   </a>
-    <div class="ui dropdown item">
-      Milestones
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <a class="item" href="../milestone1">
-          Milestone 1
-        </a>
-        <a class="item" href="../milestone2">
-          Milestone 2
-        </a>
-      </div>
+
+  <div class="ui dropdown item">
+    Milestones
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <a class="item" href="../milestone1">
+        Milestone 1
+      </a>
+      <a class="item" href="../milestone2">
+        Milestone 2
+      </a>
     </div>
+  </div>
+
   <a class="item" href="../ourteam">
     Our Team
   </a>
@@ -37,24 +39,77 @@
   $(".dropdown").dropdown();
 </script>
 
-<div class="ui container">
+<div class="ui container" style="margin-bottom: 10px">
   <div class="ui segment">
-    <h1 class="ui centered header">Milestone 2</h1>
+    <h1 class="ui centered header">Milestone 1</h1>
     <h3 class="ui header">Milestone Repository</h3>
+    <a href="https://github.com/manoa-marketplace/version-1.0" target="_blank">
+      <i class="github icon"></i>
+      manoa-marketplace/version-1.0
+    </a>
+    <br>
+    <a href="https://github.com/manoa-marketplace/version-1.0/projects/1" target="_blank">
+      <i class="github icon"></i>
+      Project Page
+    </a>
     <h3>Goals</h3>
-        <ul>  
-      <li>Create a post.</li>
-      <li>Edit an existing post.</li>
-      <li>Delete a post.</li>
-      <li>Users should only be able to edit and delete their own posts.</li>
-    </ul>  
-    <h3>Expected issues<h3>
-    <ul>  
-      <li>Integrate search function</li>
-      <li>Convert "profile" into "items"</li>
-      <li>Notify admin page</li>
-    </ul>  
+    <div class="ui list">
+      <div class="item">
+        <i class="orange minus icon"></i>
+        <p class="content">Add app functionality</p>
+        <div class="ui list" style="margin-left: 10px">
+          <div class="item">
+            <i class="teal check icon"></i>
+            <p class="content">Post a listing</p>
+          </div>
+          <div class="item">
+            <i class="teal check icon"></i>
+            <p class="content">Edit a listing</p>
+          </div>
+          <div class="item">
+            <i class="teal check icon"></i>
+            <p class="content">Edit listing shows previous inputted data</p>
+          </div>
+          <div class="item">
+            <i class="teal check icon"></i>
+            <p class="content">Delete a listing/p>
+          </div>
+          <div class="item">
+            <i class="teal check icon"></i>
+            <p class="content">Delete listing confirmation</p>
+          </div>
+          <div class="item">
+            <i class="red x icon"></i>
+            <p class="content">Required fields error</p>
+          </div>
+          <div class="item">
+            <i class="teal check icon"></i>
+            <p class="content">Browse categories with filter function</p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="ui medium image" src="../assets/images/Browse%20category%20mockup.png" style="margin-top: 2px;margin-bottom: 2px">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <i class="teal check icon"></i>
+        <p class="content">Deploy to Galaxy</p>
+        <div class="ui list" style="margin-left: 10px">
+          <div class="item">
+            <i class="teal check icon"></i>
+            <p class="content">Deployed at
+              <a href="http://manoamarketplace.meteorapp.com/" target="_blank">
+                manoamarketplace.meteorapp.com
+              </a>
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
   </div>
+
+</div>
 
 </div>
 
