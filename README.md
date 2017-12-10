@@ -6,7 +6,7 @@ Created by Jessie Flores, Vincent Nagoshi, and Mitchell Sakuda
 
 Manoa Marketplace is an application which will provide UH Manoa students a campus-based Craiglist for buying and selling items. The application requires a UH system login to provide security for transactions. You will be greeted by the shown landing page:
 
-<img class="ui fluid image" src="../assets/images/homepage.png" style="margin-top: 2px;margin-bottom: 2px">
+<img class="ui fluid image" src="/assets/images/homepage.png" style="margin-top: 2px;margin-bottom: 2px">
 
 
 ## Overview
